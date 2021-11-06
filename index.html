@@ -31,33 +31,22 @@ https://www.figma.com/community/file/1031698737363668691/%5BNLW-Heat---Mission:-
 
                 <h1>Alex Custódio</h1>
                 
-                <a href="www.github.com/alexcstd">
+                <a href="https://www.github.com/alexcstd">
                     <img src="images/github.svg" alt="github logo icon">
                     alekcstd
                 </a>
 
                 <p>A brazilian programming beginner who learns something new every day</p>
 
-                <ul>
-                    <li>
-                        <a href="https://youtube.com" target="_blank">
-                            <img src="images/youtube.svg" alt="youtube logo icon">
-                        </a>
-                    </li>
+                <ul id="socialLinks">
 
-                    <li>
-                        <a href="https://facebook.com" target="_blank">
-                            <img src="images/facebook.svg" alt="facebook logo icon">
-                        </a>
-                    </li>
-
-                    <li>
+                    <li class="instagram">
                         <a href="https://instagram.com" target="_blank">
                             <img src="images/instagram.svg" alt="instagram logo icon">
                         </a>
                     </li>
 
-                    <li>
+                    <li class="twitter">
                         <a href="https://twitter.com" target="_blank">
                             <img src="images/twitter.svg" alt="twitter logo icon">
                         </a>
@@ -65,5 +54,22 @@ https://www.figma.com/community/file/1031698737363668691/%5BNLW-Heat---Mission:-
                 </ul>
             </div>
         </main>
+
+        <script>
+            const linksSocialMedia = {
+                github: "alexcstd",
+                instagram: "alek.cstd",
+                twitter: "alekcstd"
+                
+            }
+            function changeSocialMediaLinks() {
+                for (let li of socialLinks.children){
+                    const social = li.getAttribute('class')
+                    li.children[0].href = `https://www.${social}.com/${linksSocialMedia[social]}`
+                }
+            }
+            changeSocialMediaLinks()
+        </script>
     </body>
+    
 </html>
