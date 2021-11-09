@@ -27,17 +27,17 @@ https://www.figma.com/community/file/1031698737363668691/%5BNLW-Heat---Mission:-
                     <span>
                         <img src="images/build.svg" alt="rocketseat logo icon">
                     </span>
-                    <img src="https://github.com/alexcstd.png" height="185" width="185" alt="">
+                    <img id="userImage" src="https://lorempixel.com/185/185/people" alt="">
                 </div>
 
-                <h1>Alex Custódio</h1>
+                <h1 id="userName">Profile Name</h1>
                 
-                <a href="https://www.github.com/alexcstd">
+                <a href="https://www.github.com/" id="userLink">
                     <img src="images/github.svg" alt="github logo icon">
-                    alekcstd
+                    <span id="userLogin">username</span>
                 </a>
 
-                <p>A brazilian programmer student of Web (fullstack) and Game Development.</p>
+                <p id="userBio">Biography</p>
 
                 <ul id="socialLinks">
 
@@ -56,23 +56,7 @@ https://www.figma.com/community/file/1031698737363668691/%5BNLW-Heat---Mission:-
             </div>
         </main>
 
-        <script>
-            const linksSocialMedia = {
-                github: "alexcstd",
-                instagram: "alek.cstd",
-                twitter: "alekcstd"
-                
-            }
-            function changeSocialMediaLinks() {
-                for (let li of socialLinks.children){
-                    const social = li.getAttribute('class')
-                    li.children[0].href = `https://www.${social}.com/${linksSocialMedia[social]}`
-                }
-            }
-            changeSocialMediaLinks()
-
-            
-        </script>
+        <script src="main.js"></script>
     </body>
     
 </html>
