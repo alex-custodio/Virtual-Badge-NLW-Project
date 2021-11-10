@@ -1,5 +1,5 @@
 const linksSocialMedia = {
-    github: 'alexcstd',
+    github: 'alex-custodio',
     instagram: 'alek.cstd',
     twitter: 'alekcstd'
 }
