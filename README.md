@@ -9,9 +9,9 @@ This project is part of the things I'm learning from NLW Heat Origin : an intens
 <br>
 
 >## Github Page
-+ [Virtual Badge](https://alex-custodio.github.io/Virtual-Badge-NLW-Project/)
++ [Virtual Badge - Alex Custódio](https://alex-custodio.github.io/Virtual-Badge-NLW-Project/)
 ### Desktop Page
 <img src="images/screenshot.png">
 
 ### Mobile Page
-<img src="images/screenshot-mobile">
+<img src="images/screenshot-mobile.png">
