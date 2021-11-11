@@ -116,7 +116,9 @@ ul{
         top: 8.6rem;
         
       }
-    
+      .avatar {
+        margin: 10.5rem auto 0;
+      }
       main {
         position: fixed;
         width: 358px;
@@ -125,7 +127,7 @@ ul{
         border-radius: 8px;
         
       }
-     
+      
       .container {
         margin-top: -7rem;
       }
